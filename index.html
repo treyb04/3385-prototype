@@ -199,6 +199,94 @@ textarea.search-input{resize:vertical;font-family:'Inter',sans-serif}
 .cap-line{margin:0;padding:7px 9px;border-radius:8px;color:var(--dim2);font-size:14px;line-height:1.5;cursor:pointer;transition:color .2s,background .2s}
 .cap-line.on{color:var(--text);background:rgba(115,181,57,.14)}
 .cap-note{margin:0;color:var(--dim2);font-size:11.5px;line-height:1.5}
+
+/* ===== BYOP+ membership ===== */
+.plus-pill{display:inline-block;margin-left:6px;padding:2px 6px;border-radius:8px;background:var(--green);color:#06170c;font:700 9.5px/1.25 'Space Grotesk',sans-serif;letter-spacing:.7px;text-transform:uppercase;vertical-align:middle;font-style:normal}
+.cat .plus-pill,.cat-pill+.plus-pill{margin-left:0}
+.cat-pill+.plus-pill{margin-right:6px}
+.tag .plus-pill{margin-left:8px}
+body.is-plus .plus-pill,body.is-plus .plus-dot,body.is-plus .free-only{display:none!important}
+.member-tag{display:none;margin-left:8px;padding:2px 8px;border-radius:10px;background:var(--green);color:#06170c;font:700 10.5px/1.3 'Space Grotesk',sans-serif;letter-spacing:.4px}
+body.is-plus .member-tag{display:inline-block}
+.linklike{color:var(--green);font-weight:600;text-decoration:underline;font-size:inherit;font-family:inherit}
+.meter{margin:-8px 0 16px;color:var(--dim);font-size:12.5px;line-height:1.5}
+.meter b{color:var(--text)}
+.pc-badge{display:inline-block;background:var(--green);color:#06170c;font:700 11px/1.3 'Space Grotesk',sans-serif;letter-spacing:.5px;padding:3px 9px;border-radius:10px}
+.plus-card{background:linear-gradient(155deg,var(--green-dk),#173322 70%);border:1px solid rgba(255,255,255,.08);border-radius:var(--r);padding:16px;margin-bottom:26px;cursor:pointer}
+.plus-card .pc-top{display:flex;justify-content:space-between;align-items:center}
+.plus-card .pc-from{color:#d9ede1;font-size:12.5px}
+.plus-card h4,.plus-banner h4{margin:10px 0 4px;font-size:16.5px}
+.plus-card p,.plus-banner p{margin:0;color:#cfe5d8;font-size:13px;line-height:1.5}
+.pc-cta{display:inline-block;margin-top:12px;color:var(--green);font-weight:700;font-size:13.5px;font-family:'Space Grotesk',sans-serif}
+.pc-cta i{font-style:normal}
+.plus-banner{display:flex;gap:14px;align-items:center;justify-content:space-between;margin:26px 0 0;padding:16px;border-radius:var(--r);background:linear-gradient(155deg,var(--green-dk),#173322 70%);border:1px solid rgba(255,255,255,.08);cursor:pointer}
+.plus-banner h4{margin-top:8px}
+.controls-2{flex-wrap:wrap;justify-content:center}
+.dl-btn{position:relative;min-width:44px}
+.plus-dot{position:absolute;top:-6px;right:-4px;width:16px;height:16px;border-radius:50%;background:var(--green);color:#06170c;font:700 12px/16px 'Space Grotesk',sans-serif;text-align:center;font-style:normal}
+.demo-note.preview{margin-top:10px}
+
+#ov-plus{z-index:40}
+.plus-head{display:flex;align-items:center;justify-content:space-between;padding:20px;padding-top:calc(20px + env(safe-area-inset-top,0px))}
+.plus-brand{display:flex;align-items:center}
+.plus-logo{height:26px;width:auto;display:block}
+.plus-mark{display:inline-flex;width:24px;height:24px;border-radius:50%;background:var(--green);color:#06170c;font:700 17px/1 'Space Grotesk',sans-serif;align-items:center;justify-content:center;margin-left:8px}
+.plus-body{flex:1;overflow-y:auto;padding:0 20px 28px}
+.plus-foot{padding:14px 20px;padding-bottom:calc(14px + env(safe-area-inset-bottom,0px));border-top:1px solid var(--line);background:var(--bg)}
+.plus-foot .btn-primary{display:block;width:100%;flex:none}
+.plus-fine{margin:9px 0 0;text-align:center;color:var(--dim2);font-size:11.5px;line-height:1.5}
+.plus-later{display:block;margin:8px auto 0;color:var(--dim);font-size:13px;font-weight:600}
+.plus-reason{display:flex;gap:10px;align-items:center;background:rgba(115,181,57,.12);border:1px solid var(--green);color:var(--text);padding:11px 14px;border-radius:var(--rs);font-size:13.5px;font-weight:600;margin-bottom:16px}
+.plus-reason .plus-pill{margin:0}
+.plus-hero h1{font:700 27px/1.15 'Space Grotesk',sans-serif;margin:4px 0 10px}
+.plus-hero p{margin:0;color:var(--dim);font-size:14px;line-height:1.6}
+.plus-hero p b{color:var(--text);font-weight:600}
+.seg{display:flex;background:var(--bg2);border:1px solid var(--line);border-radius:24px;padding:4px;margin:20px 0 16px}
+.seg button{flex:1;padding:9px 6px;border-radius:20px;font-size:13px;color:var(--dim);font-weight:600}
+.seg button.on{background:var(--green);color:#06170c}
+.plan{display:block;width:100%;text-align:left;background:var(--bg2);border:1.5px solid var(--line);border-radius:var(--r);padding:16px 14px;margin-bottom:14px;position:relative;color:var(--text)}
+.plan.sel{border-color:var(--green);background:rgba(115,181,57,.1)}
+.plan-badge{position:absolute;top:-10px;left:44px;background:var(--green);color:#06170c;font:700 10.5px/1.3 'Space Grotesk',sans-serif;padding:3px 9px;border-radius:10px}
+.plan-top{display:flex;gap:10px;align-items:flex-start}
+.plan .radio{width:20px;height:20px;border-radius:50%;border:2px solid var(--dim2);flex:0 0 auto;margin-top:1px}
+.plan.sel .radio{border-color:var(--green);background:radial-gradient(circle,var(--green) 42%,transparent 48%)}
+.plan-main{flex:1;min-width:0}
+.plan-main h4{margin:0 0 4px;font-size:15px}
+.plan-main p{margin:0;color:var(--dim);font-size:12.5px;line-height:1.5}
+.plan-price{flex:0 0 auto;text-align:right;line-height:1.2}
+.plan-price b{display:block;font:700 23px 'Space Grotesk',sans-serif}
+.plan-price span{display:block;color:var(--dim);font-size:12px}
+.plan-price em{display:block;font-style:normal;color:var(--green);font-size:11px;margin-top:4px;font-weight:600}
+.trust{display:flex;flex-wrap:wrap;gap:6px 14px;justify-content:center;color:var(--dim);font-size:12.5px;margin:4px 0 6px}
+.trust span:before{content:"✓";color:var(--green);margin-right:5px;font-weight:700}
+.cmp{border:1px solid var(--line);border-radius:var(--rs);overflow:hidden;background:var(--bg2)}
+.cmp-row{display:grid;grid-template-columns:1fr 74px 82px;align-items:center;gap:6px;padding:11px 12px;border-top:1px solid var(--line);font-size:12.5px;line-height:1.35}
+.cmp-row:first-child{border-top:none;background:var(--bg3);font-weight:700;font-family:'Space Grotesk',sans-serif;font-size:12px}
+.cmp-row span:nth-child(2),.cmp-row span:nth-child(3){text-align:center}
+.cmp-row span:nth-child(2){color:var(--dim)}
+.cmp-row span:nth-child(3){color:var(--green);font-weight:600}
+.cmp-row.hd span:nth-child(2),.cmp-row.hd span:nth-child(3){color:inherit}
+.wtp{display:flex;flex-direction:column;gap:10px}
+.wtp-card{background:var(--bg2);border:1px solid var(--line);border-radius:var(--rs);padding:14px}
+.wtp-card .lbl{display:block;color:var(--green);font:700 11px 'Space Grotesk',sans-serif;letter-spacing:.6px;text-transform:uppercase;margin-bottom:6px}
+.wtp-card p{margin:0;font-size:13.5px;line-height:1.55}
+.wtp-card small{display:block;margin-top:6px;color:var(--dim2);font-size:11.5px}
+.sum{background:var(--bg2);border:1px solid var(--line);border-radius:var(--r);padding:16px;margin:6px 0 14px}
+.sum-row{display:flex;justify-content:space-between;gap:12px;padding:9px 0;border-top:1px solid var(--line);font-size:13.5px}
+.sum-row:first-child{border-top:none;padding-top:0}
+.sum-row span:first-child{color:var(--dim)}
+.sum-row b{text-align:right}
+.sum-total{font-size:15px}
+.incl{margin:0;padding:0;list-style:none}
+.incl li{display:flex;gap:9px;padding:6px 0;font-size:13.5px;line-height:1.45}
+.incl li:before{content:"✓";color:var(--green);font-weight:700}
+.done-wrap{text-align:center;padding-top:8px}
+.done-check{width:64px;height:64px;border-radius:50%;background:var(--green);color:#06170c;font-size:32px;font-weight:700;display:flex;align-items:center;justify-content:center;margin:6px auto 16px}
+.done-wrap h2{font:700 24px/1.2 'Space Grotesk',sans-serif;margin:0 0 8px}
+.done-wrap>p{margin:0 0 20px;color:var(--dim);font-size:14px;line-height:1.55}
+.done-actions{display:flex;flex-direction:column;gap:10px;text-align:left}
+.done-actions .row{padding:14px 16px}
+.pill-btn.danger{color:#ff8c7a;border-color:#ff8c7a}
 </style>
 </head>
 <body>
@@ -224,14 +312,18 @@ textarea.search-input{resize:vertical;font-family:'Inter',sans-serif}
       <div class="hscroll" id="briefs"></div>
       <div class="deep-card" data-play="deep">
         <div>
-          <span class="tag">Deep Dive · 20 min</span>
+          <span class="tag">Deep Dive · 20 min<i class="plus-pill">PLUS</i></span>
           <h3>Last Month at Cal Poly</h3>
-          <p>The month's biggest campus and SLO stories, connected. A good one for the commute.</p>
+          <p>The month's biggest campus and SLO stories, connected. A good one for the commute.<span class="free-only"> Hear the first 2 minutes free.</span></p>
         </div>
         <span class="qp-btn">▶</span>
       </div>
       <h3 class="sec-title">Editor's Choice</h3>
       <div class="hscroll" id="editorsChoice"></div>
+      <div class="plus-banner free-only" data-plus="home" role="button" tabindex="0">
+        <div><span class="pc-badge">BYOP+</span><h4>Try it free for 7 days</h4><p>Longer episodes, daily delivery and offline listening. From $6/month, and every plan supports Mustang News.</p></div>
+        <span class="qp-btn">›</span>
+      </div>
       <h3 class="sec-title">Recommended for you</h3>
       <div class="list" id="recList"></div>
       <p class="source-note one-line">Built from stories verified by <a href="https://mustangnews.net" target="_blank" rel="noopener">Mustang News</a></p>
@@ -264,7 +356,7 @@ textarea.search-input{resize:vertical;font-family:'Inter',sans-serif}
     <div class="pad">
       <div class="avatar-row">
         <span class="avatar" id="pfAvatar">A</span>
-        <div class="av-text"><h3 id="pfName">Alex Rivera</h3><span class="dim" id="pfSub">Cal Poly · Business, '27</span></div>
+        <div class="av-text"><h3 id="pfName">Alex Rivera</h3><span class="dim" id="pfSub">Cal Poly · Business, '27</span><span class="member-tag" id="pfMember">BYOP+ member</span></div>
         <button class="pill-btn" data-sub="profile">Edit</button>
       </div>
       <div class="stats-row">
@@ -272,10 +364,11 @@ textarea.search-input{resize:vertical;font-family:'Inter',sans-serif}
         <div class="stat"><b id="stMin">54</b><span>min listened</span></div>
         <div class="stat"><b>4</b><span>day streak</span></div>
       </div>
+      <div class="plus-card" id="plusCard" role="button" tabindex="0" data-plus="profile"></div>
       <h3 class="sec-title" style="margin-top:0">Preferences</h3>
       <div class="list">
         <div class="row" role="button" tabindex="0" data-sub="presets"><div class="rt"><h4>Manage presets</h4><span class="meta" id="sumPresets"></span></div><span class="iconbtn">›</span></div>
-        <div class="row" role="button" tabindex="0" data-sub="daily"><div class="rt"><h4>Daily delivery</h4><span class="meta" id="sumDaily"></span></div><span class="iconbtn">›</span></div>
+        <div class="row" role="button" tabindex="0" data-sub="daily"><div class="rt"><h4>Daily delivery<i class="plus-pill">PLUS</i></h4><span class="meta" id="sumDaily"></span></div><span class="iconbtn">›</span></div>
       </div>
       <h3 class="sec-title">Account</h3>
       <div class="list">
@@ -294,6 +387,7 @@ textarea.search-input{resize:vertical;font-family:'Inter',sans-serif}
       <h2 id="npTitle">Title</h2>
       <p class="dim" id="npSub">Mustang News</p>
       <p class="demo-note hidden" id="npNote"></p>
+      <p class="demo-note preview hidden" id="npPreview"></p>
       <input type="range" class="seekbar" id="seek" min="0" max="100" value="0">
       <div class="time-row"><span id="curTime">0:00</span><span id="durTime">0:00</span></div>
       <div class="controls">
@@ -305,6 +399,7 @@ textarea.search-input{resize:vertical;font-family:'Inter',sans-serif}
         <button class="pill-btn" id="btnSpeed">1×</button>
         <button class="pill-btn" id="btnSave">☆ Save</button>
         <button class="pill-btn" id="btnShare">↗ Share</button>
+        <button class="pill-btn dl-btn" id="btnDownload" aria-label="Download for offline listening">⬇<i class="plus-dot">+</i></button>
       </div>
       <div class="quick-actions">
         <button class="pill-btn" id="btnElaborate">ⓘ Elaborate</button>
@@ -325,6 +420,7 @@ textarea.search-input{resize:vertical;font-family:'Inter',sans-serif}
     <div class="ov-body" id="ovBody">
       <div class="step active" data-step="1">
         <h3>What do you want to hear about?</h3>
+        <p class="meter" data-meter></p>
         <div class="chips wrap" id="topicChips"></div>
       </div>
       <div class="step" data-step="2">
@@ -337,8 +433,9 @@ textarea.search-input{resize:vertical;font-family:'Inter',sans-serif}
       </div>
       <div class="step" data-step="4">
         <h3>Set the tone</h3>
+        <p class="meter" data-meter></p>
         <div class="chips" id="toneChips"></div>
-        <label class="save-preset-row"><input type="checkbox" id="savePresetChk"> Save this combo as a preset</label>
+        <label class="save-preset-row"><input type="checkbox" id="savePresetChk"> Save this combo as a preset<span id="presetLimit"></span></label>
         <input type="text" id="presetNameInput" class="search-input hidden" placeholder="Name this preset (e.g. Morning Commute)" style="margin-top:10px">
       </div>
     </div>
@@ -352,6 +449,13 @@ textarea.search-input{resize:vertical;font-family:'Inter',sans-serif}
   <div class="overlay" id="ov-sub" role="dialog" aria-modal="true" aria-labelledby="subTitle">
     <div class="sub-head"><button class="sub-back" id="subBack" aria-label="Back">‹</button><h2 id="subTitle"></h2></div>
     <div class="sub-body" id="subBody"></div>
+  </div>
+
+
+  <div class="overlay" id="ov-plus" role="dialog" aria-modal="true" aria-label="BYOP+ membership">
+    <div class="plus-head" id="plusHead"></div>
+    <div class="plus-body" id="plusBody"></div>
+    <div class="plus-foot" id="plusFoot"></div>
   </div>
 
   <nav class="nav">
@@ -387,13 +491,20 @@ Object.values(TRACKS).forEach(t=>{
 const EDITORS=['baseball','labor','chevron','parabug','simtable'];
 const RECOMMENDED=['advising','kratom','fratty','table'];
 const byId=id=>STORIES.find(s=>s.id===id);
+// Membership: which options are Plus-only, and how much of a premium episode is free
+const PREVIEW=120;
+TRACKS.deep.premium=true;
+const GATES={len:[8,15],voice:['Two-Host Deep Dive'],tone:['Deep Dive']};
+const PLUS_PILL='<i class="plus-pill">PLUS</i>';
+const lockedOpt=(k,v)=>GATES[k].includes(v);
+function lockPill(trackId,at){return TRACKS[trackId].premium&&at>=PREVIEW?PLUS_PILL:''}
 
 function storyPlay(s){return s.plays[0]}
 function storyMeta(s){const p=storyPlay(s);return '▶ '+TRACKS[p[0]].short+' · '+fmt(p[1])}
-function cardHTML(s){const p=storyPlay(s);return `<div class="ecard" data-play="${p[0]}" data-at="${p[1]}"><span class="cat">${s.cat}</span><h4>${escHtml(s.title)}</h4><span class="dur">${storyMeta(s)}</span></div>`}
+function cardHTML(s){const p=storyPlay(s);return `<div class="ecard" data-play="${p[0]}" data-at="${p[1]}"><span class="cat">${s.cat}${lockPill(p[0],p[1])}</span><h4>${escHtml(s.title)}</h4><span class="dur">${storyMeta(s)}</span></div>`}
 function briefHTML(t){return `<div class="ecard brief" data-play="${t.id}"><span class="cat">${t.topics.join(' + ')}</span><h4>${escHtml(t.title)}</h4><p class="bl">${escHtml(t.blurb)}</p><span class="dur">▶ ${t.min}</span></div>`}
-function rowHTML(s){const p=storyPlay(s);return `<div class="row" data-play="${p[0]}" data-at="${p[1]}"><div class="rt"><span class="cat-pill">${s.cat}</span><h4>${escHtml(s.title)}</h4><span class="meta">${escHtml(s.blurb)}</span><span class="meta2">${storyMeta(s)}</span></div><a class="iconbtn" href="${s.url}" target="_blank" rel="noopener" aria-label="Read the article on Mustang News">ⓘ</a></div>`}
-function episodeRow(t){return `<div class="row" data-play="${t.id}"><div class="rt"><span class="cat-pill">${t.kind}</span><h4>${escHtml(t.title)}</h4><span class="meta">${escHtml(t.blurb)}</span><span class="meta2">▶ ${t.min}</span></div><span class="iconbtn">▶</span></div>`}
+function rowHTML(s){const p=storyPlay(s);return `<div class="row" data-play="${p[0]}" data-at="${p[1]}"><div class="rt"><span class="cat-pill">${s.cat}</span>${lockPill(p[0],p[1])}<h4>${escHtml(s.title)}</h4><span class="meta">${escHtml(s.blurb)}</span><span class="meta2">${storyMeta(s)}</span></div><a class="iconbtn" href="${s.url}" target="_blank" rel="noopener" aria-label="Read the article on Mustang News">ⓘ</a></div>`}
+function episodeRow(t){return `<div class="row" data-play="${t.id}"><div class="rt"><span class="cat-pill">${t.kind}</span>${t.premium?PLUS_PILL:''}<h4>${escHtml(t.title)}</h4><span class="meta">${escHtml(t.blurb)}</span><span class="meta2">▶ ${t.min}</span></div><span class="iconbtn">▶</span></div>`}
 
 // Home
 document.getElementById('briefs').innerHTML=['campus','sports','local'].map(id=>briefHTML(TRACKS[id])).join('');
@@ -580,7 +691,7 @@ document.getElementById('btnClip').addEventListener('click',()=>{
 
 // Chapters + captions panel
 function buildPanel(t){
-  chapList.innerHTML=t.chapters.map((c,i)=>`<div class="chap" data-i="${i}"><div class="chap-top" data-seek="${c.t}"><b>${escHtml(c.title)}</b><span>${fmt(c.t)}</span></div><p>${escHtml(c.blurb)}</p>${c.stories.map(s=>`<a class="chap-link" href="${s.url}" target="_blank" rel="noopener"><span>${escHtml(s.title)}</span><i>↗</i></a>`).join('')}</div>`).join('');
+  chapList.innerHTML=t.chapters.map((c,i)=>`<div class="chap" data-i="${i}"><div class="chap-top" data-seek="${c.t}"><b>${escHtml(c.title)}</b><span>${fmt(c.t)}${t.premium&&c.t>=PREVIEW?PLUS_PILL:''}</span></div><p>${escHtml(c.blurb)}</p>${c.stories.map(s=>`<a class="chap-link" href="${s.url}" target="_blank" rel="noopener"><span>${escHtml(s.title)}</span><i>↗</i></a>`).join('')}</div>`).join('');
   capBox.innerHTML=t.lines.map(l=>`<p class="cap-line" data-seek="${l[0]}">${escHtml(l[1])}</p>`).join('');
   capBox.scrollTop=0; capIdx=-1; chapIdx=-1;
   showPanelTab('chapters');
@@ -648,6 +759,7 @@ function loadTrack(t){
 function openTrack(id,at,opts){
   const t=TRACKS[id]; if(!t)return;
   opts=opts||{}; at=Number(at)||0;
+  if(t.premium&&!isPlus()&&at>=PREVIEW){openPlus('deep');return}
   document.getElementById('npTitle').textContent=opts.title||t.title;
   document.getElementById('npSub').textContent=opts.sub||t.sub;
   const note=document.getElementById('npNote'); note.textContent=opts.note||''; note.classList.toggle('hidden',!opts.note);
@@ -661,6 +773,7 @@ function openTrack(id,at,opts){
   document.getElementById('chev').textContent=SET.play.captions?'⌃':'⌄';
   startAt(at);
   syncPanel(true);
+  syncPlusUI();
 }
 
 // Toast
@@ -678,9 +791,9 @@ const LENS=[2,5,8,15];
 const VOICES=[{n:'Riley',d:'warm & clear, single narrator'},{n:'Marcus',d:'upbeat energy, single narrator'},{n:'Sam',d:'calm, measured narrator'},{n:'Two-Host Deep Dive',d:'conversational duo, like a chat between friends'}];
 const TONES=['Casual','Professional','Hype','Deep Dive'];
 document.getElementById('topicChips').innerHTML=TOPICS.map(t=>`<button class="chip" data-v="${t}">${t}</button>`).join('');
-document.getElementById('lenChips').innerHTML=LENS.map(l=>`<button class="chip" data-v="${l}">${l} min</button>`).join('');
-document.getElementById('voiceList').innerHTML=VOICES.map(v=>`<div class="voice" data-v="${v.n}"><b>${v.n}</b><span>${v.d}</span></div>`).join('');
-document.getElementById('toneChips').innerHTML=TONES.map(t=>`<button class="chip" data-v="${t}">${t}</button>`).join('');
+document.getElementById('lenChips').innerHTML=LENS.map(l=>`<button class="chip" data-v="${l}"${lockedOpt('len',l)?' data-lock="1"':''}>${l} min${lockedOpt('len',l)?PLUS_PILL:''}</button>`).join('');
+document.getElementById('voiceList').innerHTML=VOICES.map(v=>`<div class="voice" data-v="${v.n}"${lockedOpt('voice',v.n)?' data-lock="1"':''}><b>${v.n}${lockedOpt('voice',v.n)?PLUS_PILL:''}</b><span>${v.d}</span></div>`).join('');
+document.getElementById('toneChips').innerHTML=TONES.map(t=>`<button class="chip" data-v="${t}"${lockedOpt('tone',t)?' data-lock="1"':''}>${t}${lockedOpt('tone',t)?PLUS_PILL:''}</button>`).join('');
 
 document.getElementById('topicChips').addEventListener('click',e=>{
   const b=e.target.closest('.chip');if(!b)return;b.classList.toggle('sel');
@@ -722,6 +835,7 @@ function goStep(n){
 document.getElementById('btnStepBack').addEventListener('click',()=>goStep(step-1));
 document.getElementById('btnStepNext').addEventListener('click',()=>{
   if(step<4){goStep(step+1);return}
+  if(!isPlus()&&SET.plan.mixesUsed>=FREE_LIMITS.mixes){openPlus('mixes');return}
   document.getElementById('ovBody').style.display='none';
   document.getElementById('ovFoot').style.display='none';
   document.getElementById('ovLoading').classList.add('show');
@@ -732,7 +846,9 @@ document.getElementById('btnStepNext').addEventListener('click',()=>{
     const saveChecked=document.getElementById('savePresetChk').checked;
     const nm=document.getElementById('presetNameInput').value.trim()||('Mix '+(PRESETS.length+1));
     closeCreate();
+    if(!isPlus())SET.plan.mixesUsed++;
     const mixTrack=playMix(sel.topics,sel.len,sel.voice,sel.tone);
+    refreshPlus();
     if(saveChecked){
       PRESETS.push({id:'p'+Date.now(),name:nm,topics:[...sel.topics],len:sel.len,voice:sel.voice,tone:sel.tone,isDefault:PRESETS.length===0});
       updateQuickPlay();
@@ -760,7 +876,8 @@ const SET={
   name:'Alex Rivera', major:"Cal Poly · Business, '27", topics:['Campus','Sports'],
   daily:{on:true,preset:null,morning:{on:true,time:'7:30 AM'},evening:{on:false,time:'5:30 PM'},days:[1,2,3,4,5]},
   notif:{push:true,scoop:true,editors:true,daily:true,breaking:false,email:false},
-  play:{speed:1,skip:15,autoplay:true,captions:false,autoDl:true,wifi:true,dlMB:18}
+  play:{speed:1,skip:15,autoplay:true,captions:false,autoDl:true,wifi:true,dlMB:18},
+  plan:{tier:'free',path:'bundle',billing:'monthly',trialEnds:null,mixesUsed:1}
 };
 let statEps=12, listenSec=0, lastT=null;
 const DAY_ORDER=[1,2,3,4,5,6,0], DAY_NAMES=['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
@@ -876,8 +993,9 @@ const PAGES={
     sw('play.autoplay','Autoplay when opened','Start playing as soon as you pick an episode')+
     sw('play.captions','Show transcript by default','Open the transcript on Now Playing')+
     '<h3 class="set-group">Downloads</h3>'+
-    sw('play.autoDl','Download saved episodes','Keep them available offline')+
-    sw('play.wifi','Download on Wi-Fi only','Save your data plan')+
+    (isPlus()?'':'<div class="info-card"><h4>Offline downloads are part of BYOP+</h4><p>Save episodes for the commute, even without signal.</p><button class="btn-primary" style="width:100%;margin-top:12px" data-act="upgrade">See BYOP+</button></div>')+
+    sw('play.autoDl','Download saved episodes','Keep them available offline',!isPlus())+
+    sw('play.wifi','Download on Wi-Fi only','Save your data plan',!isPlus())+
     `<div class="set-block"><h4>Storage</h4><div class="bar"><i style="width:${pct}%"></i></div><span class="dim">${p.dlMB} MB of 500 MB used</span></div>
     <button class="pill-btn" data-act="cleardl"${p.dlMB?'':' disabled'}>Clear downloads</button>`}},
 
@@ -945,12 +1063,273 @@ subBody.addEventListener('keydown',e=>{
 const profileScreen=document.getElementById('s-profile');
 function profileNav(b){
   const n=b.dataset.sub;
+  if(n==='daily'&&!isPlus()){openPlus('daily');return}
   if(n==='presets'){showScreen('s-library');setLibTab('presets')}else openSub(n);
 }
 profileScreen.addEventListener('click',e=>{const b=e.target.closest('[data-sub]');if(b)profileNav(b)});
 profileScreen.addEventListener('keydown',e=>{
   if(e.key!=='Enter'&&e.key!==' ')return;
   const b=e.target.closest('[data-sub]'); if(b&&b===e.target){e.preventDefault();profileNav(b)}
+});
+
+
+// ===== BYOP+ membership (free vs. premium) =====
+// Prototype only: no payment is collected and nothing is stored beyond this page session.
+const FREE_LIMITS={mixes:3,presets:2};
+const PLANS={
+ bundle:{name:'Mustang News Bundle',badge:'Best for the paper',monthly:6,annual:60,gift:true,
+   blurb:'A recurring gift to Mustang News with BYOP+ included. Your gift helps fund student reporting.'},
+ direct:{name:'BYOP+ Direct',badge:'',monthly:8,annual:80,gift:false,
+   blurb:'Sign up right here in the app. Cancel anytime.'}
+};
+const REASONS={
+ len:'Unlock 8 and 15 minute episodes',
+ voice:'Unlock the two-host Deep Dive voice',
+ tone:'Unlock the Deep Dive tone',
+ mixes:"You've used your 3 free custom episodes this week",
+ presets:'Free plans include 2 saved presets',
+ deep:'Keep listening to the full Deep Dive',
+ daily:'Daily commute delivery is part of BYOP+',
+ download:'Offline listening is part of BYOP+'
+};
+const COMPARE=[
+ ['What you get','Free','BYOP+'],
+ ['Quick Briefs and The Weekly Scoop','✓','✓'],
+ ['Captions, chapters and article links','✓','✓'],
+ ['Custom episodes','3 a week','Unlimited'],
+ ['Episode lengths','2 and 5 min','Up to 15 min'],
+ ['20-minute Deep Dives','2 min preview','Full episodes'],
+ ['Voices and tones','Most','All of them'],
+ ['Saved presets','2','Unlimited'],
+ ['Daily commute delivery','—','✓'],
+ ['Offline downloads','—','✓'],
+ ['Supports Mustang News','—','✓']
+];
+const FAQ=[
+ ['What happens after the free trial?',"You're charged the plan price on day 8. We remind you two days before, and you can cancel any time in Profile, then Membership."],
+ ['Where does my money go?',"With the Mustang News Bundle, your whole monthly gift goes to Mustang News and BYOP+ is included. With BYOP+ Direct, you pay BYOP and a share supports the newsroom."],
+ ['Can I switch plans?',"Yes. Switch between the Bundle and Direct, or between monthly and annual, from Profile, then Membership."]
+];
+const DL=new Set();
+
+function isPlus(){return SET.plan.tier==='plus'}
+function priceOf(path,billing){return billing==='annual'?PLANS[path].annual:PLANS[path].monthly}
+function perWeek(path,billing){const v=priceOf(path,billing)*(billing==='annual'?1:12)/52;return (Math.round(v*10)/10).toFixed(2)}
+function perMonthLabel(path,billing){const v=billing==='annual'?PLANS[path].annual/12:PLANS[path].monthly;return '$'+(Math.round(v*100)/100).toString().replace(/(\.\d)$/,'$10')}
+function plusDate(days){const d=new Date();d.setDate(d.getDate()+days);return d.toLocaleDateString('en-US',{month:'short',day:'numeric'})}
+function periodWord(b){return b==='annual'?'year':'month'}
+
+const ovPlus=document.getElementById('ov-plus'), plusBody=document.getElementById('plusBody'), plusFoot=document.getElementById('plusFoot'), plusHead=document.getElementById('plusHead');
+let plusView='plans', plusReason='', cancelArmed=false;
+const LOGO_SRC=document.querySelector('.brand-logo-img').src;
+
+function openPlus(reason){
+  if(isPlus()){openSub('plan');return}
+  plusReason=REASONS[reason]?reason:''; plusView='plans';
+  renderPlus(); plusBody.scrollTop=0;
+  ovPlus.classList.add('show');
+}
+function closePlus(){ovPlus.classList.remove('show');refreshPlus()}
+
+function planCard(id){
+  const p=PLANS[id], b=SET.plan.billing, sel=SET.plan.path===id;
+  const sub=b==='annual'?'about '+perMonthLabel(id,b)+'/mo':'about $'+perWeek(id,b)+' a week';
+  return `<button class="plan${sel?' sel':''}" data-pact="plan:${id}" role="radio" aria-checked="${sel}">
+    ${p.badge?`<span class="plan-badge">${p.badge}</span>`:''}
+    <div class="plan-top"><span class="radio"></span>
+      <div class="plan-main"><h4>${p.name}</h4><p>${p.blurb}</p></div>
+      <div class="plan-price"><b>$${priceOf(id,b)}</b><span>/${periodWord(b)}</span><em>${sub}</em></div>
+    </div></button>`;
+}
+function ctaSub(){
+  const p=SET.plan, price=priceOf(p.path,p.billing);
+  return `Then $${price}/${periodWord(p.billing)}${PLANS[p.path].gift?' as a gift to Mustang News':''}. Cancel anytime.`;
+}
+
+function plansView(){
+  const b=SET.plan.billing;
+  let h='';
+  if(plusReason)h+=`<div class="plus-reason"><span class="plus-pill">Plus</span><span>${REASONS[plusReason]}</span></div>`;
+  h+=`<div class="plus-hero"><h1>Hear the whole newsroom, on your schedule.</h1>
+    <p><b>BYOP is free to use.</b> BYOP+ adds longer episodes, daily commute delivery and offline listening. Every plan supports Mustang News, Cal Poly's student-run newspaper.</p></div>
+    <div class="seg" role="tablist" aria-label="Billing period">
+      <button class="${b==='monthly'?'on':''}" data-pact="bill:monthly" role="tab" aria-selected="${b==='monthly'}">Monthly</button>
+      <button class="${b==='annual'?'on':''}" data-pact="bill:annual" role="tab" aria-selected="${b==='annual'}">Annual · 2 months free</button>
+    </div>
+    <div role="radiogroup" aria-label="Choose a plan">${planCard('bundle')}${planCard('direct')}</div>
+    <div class="trust"><span>7-day free trial</span><span>Cancel anytime</span><span>Reminder before you're charged</span></div>
+    <h3 class="set-group">Free and BYOP+ side by side</h3>
+    <div class="cmp">${COMPARE.map((r,i)=>`<div class="cmp-row${i===0?' hd':''}"><span>${r[0]}</span><span>${r[1]}</span><span>${r[2]}</span></div>`).join('')}</div>
+    <h3 class="set-group">Why students back it</h3>
+    <div class="wtp">
+      <div class="wtp-card"><span class="lbl">What students told us</span><p>Students told us they'd listen on their morning and evening commute, and that they'd pay $5 to $10 a month if it supports Mustang News.</p><small>From the BYOP student survey</small></div>
+      <div class="wtp-card"><span class="lbl">Built on real reporting</span><p>Every episode comes only from stories reported and published by <a href="https://mustangnews.net" target="_blank" rel="noopener">Mustang News</a>. Tap ⓘ on any story to read the original.</p></div>
+      <div class="wtp-card"><span class="lbl">Founding Mustang price</span><p>Join in our first semester and your rate is locked for as long as you stay. Limited to the first 500 members.</p></div>
+    </div>
+    <h3 class="set-group">Questions</h3>
+    ${FAQ.map(q=>`<details><summary>${q[0]}</summary><p>${q[1]}</p></details>`).join('')}`;
+  return h;
+}
+function confirmView(){
+  const p=SET.plan, pl=PLANS[p.path], price=priceOf(p.path,p.billing), end=plusDate(7);
+  return `<div class="plus-hero"><h1>Review your plan</h1></div>
+    <div class="sum">
+      <div class="sum-row"><span>Plan</span><b>${pl.name}</b></div>
+      <div class="sum-row"><span>Billing</span><b>${p.billing==='annual'?'Annual':'Monthly'}</b></div>
+      <div class="sum-row"><span>Due today</span><b>$0 (7-day free trial)</b></div>
+      <div class="sum-row sum-total"><span>First charge, ${end}</span><b>$${price}</b></div>
+      ${pl.gift?`<div class="sum-row"><span>Your gift</span><b>All of it goes to Mustang News</b></div>`:''}
+    </div>
+    <h3 class="set-group" style="margin-top:6px">Included</h3>
+    <ul class="incl"><li>Unlimited custom episodes, up to 15 minutes</li><li>Full 20-minute Deep Dives</li><li>Daily commute delivery and offline downloads</li><li>Unlimited presets, every voice and tone</li></ul>
+    <p class="dim" style="margin:16px 0 0;line-height:1.6">We'll remind you two days before your trial ends. Cancel any time in Profile, then Membership.</p>`;
+}
+function doneView(){
+  const p=SET.plan, pl=PLANS[p.path];
+  return `<div class="done-wrap"><div class="done-check">✓</div>
+    <h2>You're in. Welcome to BYOP+</h2>
+    <p>Your free trial runs through ${p.trialEnds}.${pl.gift?' Thank you for supporting Mustang News.':''} Here's what just unlocked:</p>
+    <div class="done-actions">
+      <div class="row" role="button" tabindex="0" data-pact="create"><div class="rt"><h4>Make a 15-minute episode</h4><span class="meta">Longer lengths and every voice are open</span></div><span class="iconbtn">›</span></div>
+      <div class="row" role="button" tabindex="0" data-pact="deep"><div class="rt"><h4>Play the full Deep Dive</h4><span class="meta">Last Month at Cal Poly, all 20 minutes</span></div><span class="iconbtn">›</span></div>
+      <div class="row" role="button" tabindex="0" data-pact="daily"><div class="rt"><h4>Set up daily delivery</h4><span class="meta">A fresh episode before your commute</span></div><span class="iconbtn">›</span></div>
+    </div></div>`;
+}
+function renderPlus(){
+  const st=plusBody.scrollTop;
+  plusHead.innerHTML=(plusView==='confirm'
+      ?`<button class="sub-back" data-pact="back" aria-label="Back">‹</button>`
+      :`<button class="sub-back" data-pact="close" aria-label="Close">×</button>`)
+    +`<span class="plus-brand"><img class="plus-logo" src="${LOGO_SRC}" alt="BYOP"><span class="plus-mark">+</span></span><span style="width:36px"></span>`;
+  if(plusView==='plans'){
+    plusBody.innerHTML=plansView();
+    plusFoot.innerHTML=`<button class="btn-primary" data-pact="continue">Start 7-day free trial</button><p class="plus-fine">${ctaSub()}<br>Prototype only: no payment is collected.</p><button class="plus-later" data-pact="close">Not now</button>`;
+  } else if(plusView==='confirm'){
+    plusBody.innerHTML=confirmView();
+    plusFoot.innerHTML=`<button class="btn-primary" data-pact="confirm">Confirm and start free trial</button><p class="plus-fine">Prototype only: no payment is collected.</p>`;
+  } else {
+    plusBody.innerHTML=doneView();
+    plusFoot.innerHTML=`<button class="btn-primary" data-pact="close">Done</button>`;
+  }
+  plusBody.scrollTop=st;
+}
+function startPlus(){
+  SET.plan.tier='plus'; SET.plan.trialEnds=plusDate(7); cancelArmed=false;
+  plusView='done'; renderPlus(); plusBody.scrollTop=0; refreshPlus();
+}
+ovPlus.addEventListener('click',e=>{
+  const b=e.target.closest('[data-pact]'); if(!b)return;
+  const a=b.dataset.pact;
+  if(a==='close')closePlus();
+  else if(a==='back'){plusView='plans';renderPlus();plusBody.scrollTop=0}
+  else if(a.startsWith('bill:')){SET.plan.billing=a.slice(5);renderPlus()}
+  else if(a.startsWith('plan:')){SET.plan.path=a.slice(5);renderPlus()}
+  else if(a==='continue'){plusView='confirm';renderPlus();plusBody.scrollTop=0}
+  else if(a==='confirm')startPlus();
+  else if(a==='create'){closePlus();openCreate()}
+  else if(a==='deep'){closePlus();openTrack('deep',0)}
+  else if(a==='daily'){closePlus();showScreen('s-profile');openSub('daily')}
+});
+ovPlus.addEventListener('keydown',e=>{
+  if((e.key==='Enter'||e.key===' ')&&e.target.matches('.row[data-pact]')){e.preventDefault();e.target.click()}
+});
+document.addEventListener('keydown',e=>{
+  if(e.key==='Escape'&&ovPlus.classList.contains('show')){if(plusView==='confirm'){plusView='plans';renderPlus()}else closePlus()}
+});
+
+// Entry points: anything with data-plus opens the membership page
+document.addEventListener('click',e=>{
+  const el=e.target.closest('[data-plus]'); if(!el)return;
+  e.preventDefault(); openPlus(el.dataset.plus);
+});
+document.addEventListener('keydown',e=>{
+  if(e.key!=='Enter'&&e.key!==' ')return;
+  const el=e.target.closest&&e.target.closest('[data-plus]'); if(el&&el===e.target&&el.tagName!=='BUTTON'){e.preventDefault();openPlus(el.dataset.plus)}
+});
+
+// Gate: locked options in the Create flow open the membership page instead of selecting
+[['lenChips','.chip','len'],['voiceList','.voice','voice'],['toneChips','.chip','tone']].forEach(([id,sel,why])=>{
+  document.getElementById(id).addEventListener('click',e=>{
+    const b=e.target.closest(sel); if(!b||!b.dataset.lock||isPlus())return;
+    e.stopImmediatePropagation(); e.preventDefault(); openPlus(why);
+  },true);
+});
+// Gate: preset limit
+document.getElementById('savePresetChk').addEventListener('click',e=>{
+  if(!isPlus()&&PRESETS.length>=FREE_LIMITS.presets){e.preventDefault();openPlus('presets')}
+});
+// Gate: offline downloads
+document.getElementById('btnDownload').addEventListener('click',()=>{
+  if(!isPlus()){openPlus('download');return}
+  if(!curId)return;
+  if(DL.has(curId)){DL.delete(curId);toast('Removed from offline')}else{DL.add(curId);toast('Saved for offline listening')}
+  syncPlusUI();
+});
+// Gate: Deep Dive preview ends at PREVIEW seconds for free listeners
+audio.addEventListener('timeupdate',()=>{
+  const t=TRACKS[curId];
+  if(t&&t.premium&&!isPlus()&&audio.currentTime>=PREVIEW&&!ovPlus.classList.contains('show')){
+    audio.pause(); audio.currentTime=Math.max(0,PREVIEW-1); btnPlay.textContent='▶';
+    openPlus('deep');
+  }
+});
+
+// Profile and Create meters, member badge, preview note
+function upsellCard(){return `<div class="pc-top"><span class="pc-badge">BYOP+</span><span class="pc-from">From $${PLANS.bundle.monthly}/month</span></div>
+  <h4>Hear the whole newsroom</h4><p>Longer episodes, daily delivery and offline listening. Every plan supports Mustang News.</p>
+  <span class="pc-cta">Try free for 7 days <i>›</i></span>`}
+function memberCard(){const p=SET.plan,pl=PLANS[p.path];return `<div class="pc-top"><span class="pc-badge">BYOP+</span><span class="pc-from">Member</span></div>
+  <h4>${pl.name}</h4><p>Free trial ends ${p.trialEnds}. Then $${priceOf(p.path,p.billing)}/${periodWord(p.billing)}.</p>
+  <span class="pc-cta">Manage membership <i>›</i></span>`}
+function syncPlusUI(){
+  const t=TRACKS[curId], note=document.getElementById('npPreview'), dl=document.getElementById('btnDownload');
+  const show=!!(t&&t.premium&&!isPlus());
+  note.classList.toggle('hidden',!show);
+  if(show)note.innerHTML='Free preview: the first '+fmt(PREVIEW)+' of '+t.min+'. <button class="linklike" data-plus="deep">Unlock the full episode</button>';
+  const on=!!(t&&DL.has(curId));
+  dl.classList.toggle('on',on);
+  dl.innerHTML=(on?'✓':'⬇')+'<i class="plus-dot">+</i>';
+}
+function refreshPlus(){
+  const plus=isPlus();
+  document.body.classList.toggle('is-plus',plus);
+  const card=document.getElementById('plusCard');
+  if(card)card.innerHTML=plus?memberCard():upsellCard();
+  const left=Math.max(0,FREE_LIMITS.mixes-SET.plan.mixesUsed);
+  document.querySelectorAll('[data-meter]').forEach(el=>{
+    el.innerHTML=plus?'Unlimited custom episodes with BYOP+':`Free plan: <b>${left} of ${FREE_LIMITS.mixes}</b> custom episodes left this week · <button class="linklike" data-plus="mixes">Upgrade</button>`;
+  });
+  const pl=document.getElementById('presetLimit');
+  if(pl)pl.innerHTML=(!plus&&PRESETS.length>=FREE_LIMITS.presets)?PLUS_PILL:'';
+  const m=document.getElementById('pfMember'); if(m)m.textContent='BYOP+ member';
+  syncPlusUI();
+}
+const _refreshProfile=refreshProfile;
+refreshProfile=function(){_refreshProfile();refreshPlus()};
+document.getElementById('fab').addEventListener('click',refreshPlus);
+
+// Manage membership (Profile, then Membership card)
+PAGES.plan={title:'Membership',render(){
+  const p=SET.plan, pl=PLANS[p.path], b=p.billing, price=priceOf(p.path,b);
+  return `<div class="info-card"><b>BYOP+ · ${pl.name}</b><span class="dim">Free trial ends ${p.trialEnds}. Then $${price}/${periodWord(b)}.</span></div>
+    <h3 class="set-group">Billing</h3>
+    <div class="set-block"><h4>Billing period</h4>${chipRow('plan.billing',['monthly','annual'],o=>o==='monthly'?'Monthly':'Annual · 2 months free')}</div>
+    <div class="set-block"><h4>Plan</h4>${chipRow('plan.path',['bundle','direct'],o=>PLANS[o].name)}
+      <p class="dim" style="margin:12px 0 0;line-height:1.55">${pl.gift?`Your $${price} ${b==='annual'?'yearly':'monthly'} gift goes to Mustang News, and BYOP+ is included.`:`You pay BYOP $${price} per ${periodWord(b)}, and a share supports Mustang News.`}</p></div>
+    <h3 class="set-group">Included</h3>
+    <ul class="incl"><li>Unlimited custom episodes, up to 15 minutes</li><li>Full 20-minute Deep Dives</li><li>Daily commute delivery</li><li>Offline downloads</li><li>Unlimited presets, every voice and tone</li></ul>
+    <h3 class="set-group">Manage</h3>
+    <button class="pill-btn${cancelArmed?' danger':''}" data-act="cancelplan">${cancelArmed?'Tap again to cancel':'Cancel membership'}</button>
+    <p class="dim" style="margin:14px 0 0;line-height:1.55">Prototype only: no payment is collected.</p>`;
+}};
+subBody.addEventListener('click',e=>{
+  const b=e.target.closest('[data-act]'); if(!b)return;
+  if(b.dataset.act==='upgrade'){closeSub();openPlus('download')}
+  else if(b.dataset.act==='cancelplan'){
+    if(!cancelArmed){cancelArmed=true;renderSub();return}
+    cancelArmed=false; SET.plan.tier='free'; closeSub(); refreshPlus();
+    toast("Membership canceled. You're back on the free plan.");
+  }
 });
 
 applyPlay();
